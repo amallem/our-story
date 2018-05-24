@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import styled from "styled-components";
 
 const Image = styled.img`
@@ -8,9 +8,10 @@ const Image = styled.img`
 
 class PhotoCard extends Component {
   render() {
+    const { imgSrc } = this.props;
     return (
       <div>
-        <Image src={require(`../assets/${this.props.imgSrc}`)} alt="alaska-image" />
+        <Image src={require(`../assets/${imgSrc}`)} alt={`${imgSrc}-image`} />
       </div>
     );
   }
@@ -18,6 +19,6 @@ class PhotoCard extends Component {
 
 PhotoCard.propTypes = {
   imgSrc: PropTypes.string.isRequired
-}
+};
 
 export default PhotoCard;
