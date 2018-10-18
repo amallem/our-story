@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import PhotoCard from "../components/PhotoCard";
-import WorkIcon from 'material-ui-icons/Work';
-import SchoolIcon from 'material-ui-icons/School'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -13,78 +11,200 @@ class Home extends Component {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2011 - present"
+            date="2010 - The Beginning"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<WorkIcon />}
+            icon={<PhotoCard imgSrc="summer-12.png" />}
           >
-            <PhotoCard imgSrc="alaska.jpg" />
+            <PhotoCard imgSrc="cofee-day.jpg" />
+            <p>
+              #Habsiguda #FirstMeet #Shy #Amazing
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2010 - 2011"
+            date="2010 - The Beginning"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<WorkIcon />}
+            icon={<PhotoCard imgSrc="summer-12.png" />}
+          >
+            <PhotoCard imgSrc="harry_potter.jpg" />
+            <p>
+              #HarryPotter #1stMovie #2ndMeeting #Legendary
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2013"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<PhotoCard imgSrc="summer-12.png" />}
           >
             <PhotoCard imgSrc="fav.jpg" />
+            <p>
+              #fav-pic #adhya-event #gachibowli
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2013"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<PhotoCard imgSrc="summer-12.png" />}
+          >
+            <PhotoCard imgSrc="warangal.jpeg" />
+            <p>
+              #Warangal #1stOuting_outside_hyd #famous_sabudana_khichdi
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2013"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<PhotoCard imgSrc="summer-12.png" />}
+          >
+            <PhotoCard imgSrc="kindle.jpg" />
+            <p>
+              #Kindle #1stBigGift #BombayAirport #NewBeginnnings
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2013"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<PhotoCard imgSrc="summer-12.png" />}
+          >
+            <PhotoCard imgSrc="skype3.jpg" />
+            <p>
+              #GRE #MegaFight #HappyBirthdayRamya
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2013"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<PhotoCard imgSrc="summer-12.png" />}
+          >
+            <PhotoCard imgSrc="skype_match.jpg" />
+            <p>
+              #Skype #FireCouple
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2013"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<PhotoCard imgSrc="summer-12.png" />}
+          >
+            <PhotoCard imgSrc="dopamine.jpeg" />
+            <p>
+              #1stValentine #ValentinesDayGift #DopamineRing
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2013"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<PhotoCard imgSrc="summer-12.png" />}
+          >
+            <PhotoCard imgSrc="ramya_lab_greeting.jpg" />
+            <p>
+              #RudraBirthdaySurprise #RamyaUFStudents #Unexpected #BlownAway
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2013"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<PhotoCard imgSrc="summer-12.png" />}
+          >
+            <PhotoCard imgSrc="coonor.jpg" />
+            <p>
+              #CoonorTrip #ThatRoad #Spooky #FirstRoadTrip
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2013"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<PhotoCard imgSrc="summer-12.png" />}
+          >
+            <PhotoCard imgSrc="rafting.jpeg" />
+            <p>
+              #Rafting #SaveRamya #Coonor
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2013"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<PhotoCard imgSrc="summer-12.png" />}
+          >
+            <PhotoCard imgSrc="kerala_saree.jpg" />
+            <p>
+              #Temple #KeralaSaree #Traditional #Cute
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2013"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<PhotoCard imgSrc="summer-12.png" />}
+          >
+            <PhotoCard imgSrc="ramya_grad.jpg" />
+            <p>
+              #RamyaGrad #UFGrad #IstMentionOnFacebook #DebtFree
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2013"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<PhotoCard imgSrc="summer-12.png" />}
+          >
+            <PhotoCard imgSrc="ny_central_park.jpg" />
+            <p>
+              #NYC #ReUnited #USADiaryBegins #CentralPark
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2013"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<PhotoCard imgSrc="summer-12.png" />}
+          >
+            <PhotoCard imgSrc="cook.jpg" />
+            <p>
+              #Gainesville #HomeCook #HakkaNoodles #CoupleWork
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2013"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<PhotoCard imgSrc="summer-12.png" />}
+          >
+            <PhotoCard imgSrc="ramya_parents_me.jpg" />
+            <p>
+              #LoveStoryRevealed #Parents
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2008 - 2010"
+            date="2015"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<WorkIcon />}
+            icon={<PhotoCard imgSrc="summer-12.png" />}
           >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+            <PhotoCard imgSrc="alaska.jpg" />
             <p>
-              User Experience, Visual Design
+              #Alaska #bestTripEver #dancingSky
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2006 - 2008"
+            className="vertical-timeline-element--education"
+            date="2013"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<WorkIcon />}
+            icon={<PhotoCard imgSrc="summer-12.png" />}
           >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+            <PhotoCard imgSrc="takkari.jpg" />
             <p>
-              User Experience, Visual Design
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="April 2013"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<SchoolIcon />}
-          >
-            <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-            <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-            <p>
-              Strategy, Social Media
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="November 2012"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<SchoolIcon />}
-          >
-            <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-            <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-            <p>
-              Creative Direction, User Experience, Visual Design
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="2002 - 2006"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<SchoolIcon />}
-          >
-            <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-            <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-            <p>
-              Creative Direction, Visual Design
+              #Alaska #DressUp #Rain #Serious
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
