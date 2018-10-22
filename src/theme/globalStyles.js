@@ -6,7 +6,8 @@ injectGlobal`
 
   body {
     font-family: 'Indie Flower', cursive;
-    fint-size: 24px;
+    font-size: 24px;
+    background-color: coral;
   }
 
   .vertical-timeline-element-content {
